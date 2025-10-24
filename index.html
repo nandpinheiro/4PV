@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Paula Valois</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='72'>🦁</text></svg>">
+    <meta name="theme-color" content="#042940">
+</head>
+<body class="love-bg min-h-screen scroll-smooth">
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts" id="floating-hearts"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full glass-effect z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-center space-x-10">
+                <a href="#inicio" class="poppins text-gray-700 hover:text-purple-600 transition-all duration-300 font-medium text-sm uppercase tracking-wider relative group">
+                    Início
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#galeria" class="poppins text-gray-700 hover:text-purple-600 transition-all duration-300 font-medium text-sm uppercase tracking-wider relative group">
+                    Galeria
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#musicas" class="poppins text-gray-700 hover:text-purple-600 transition-all duration-300 font-medium text-sm uppercase tracking-wider relative group">
+                    Músicas
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#carta" class="poppins text-gray-700 hover:text-purple-600 transition-all duration-300 font-medium text-sm uppercase tracking-wider relative group">
+                    Carta
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#contador" class="poppins text-gray-700 hover:text-purple-600 transition-all duration-300 font-medium text-sm uppercase tracking-wider relative group">
+                    Contador
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Página Inicial -->
+    <section id="inicio" class="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+       <div class="absolute inset-0 bg-black/10"></div>
+        <div class="text-center fade-in relative z-10">
+            <div class="mb-12">
+                <span class="text-8xl heart-float inline-block glow-effect">❤️</span>
+            </div>
+            <h1 class="dancing-script text-7xl md:text-9xl text-white mb-6 font-bold text-shadow">
+                meu riso é mais feliz contigo
+            </h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-transparent via-white to-transparent mx-auto mb-8 opacity-60"></div>
+            <p class="poppins text-2xl md:text-4xl text-white/95 mb-12 font-light tracking-wide">
+                Uma surpresa especial para você, meu amor!
+            </p>
+            
+            <div class="flex justify-center">
+                <a href="#galeria" class="elegant-button text-white px-12 py-4 rounded-full poppins font-medium text-lg tracking-wide glow-effect">
+                    Um pedaço da nossa jornada
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Fotos com img1, img2 e img3 -->
+    <section id="galeria" class="min-h-screen py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="dancing-script text-5xl md:text-6xl text-white text-center mb-16 font-bold">
+                Nossos primeiros Primeiros
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Foto 1 -->
+                <div class="glass-effect rounded-3xl p-6 shadow-2xl card-hover photo-hover flex flex-col items-center">
+                    <img src="fotos/img1.jpg" alt="Primeiro Nascer do Sol" class="rounded-xl mb-4 w-full h-64 object-cover" />
+                    <h3 class="poppins font-bold text-gray-800 mb-3 text-lg">Primeiro Nascer do Sol</h3>
+                    <p class="poppins text-gray-600 leading-relaxed">Cada km valeu a pena</p>
+                </div>
+                <!-- Foto 2 -->
+                <div class="glass-effect rounded-3xl p-6 shadow-2xl card-hover photo-hover flex flex-col items-center">
+                    <img src="fotos/img2.jpg" alt="Primeira dnnça" class="rounded-xl mb-4 w-full h-64 object-cover" />
+                    <h3 class="poppins font-bold text-gray-800 mb-3 text-lg">Primeira Dança</h3>
+                    <p class="poppins text-gray-600 leading-relaxed">Só quero dançar com você</p>
+                </div>
+                <!-- Foto 3 -->
+                <div class="glass-effect rounded-3xl p-6 shadow-2xl card-hover photo-hover flex flex-col items-center">
+                    <img src="fotos/img3.jpeg" alt="Primeiro Sim" class="rounded-xl mb-4 w-full h-64 object-cover" />
+                    <h3 class="poppins font-bold text-gray-800 mb-3 text-lg">Primeiro Sim</h3>
+                    <p class="poppins text-gray-600 leading-relaxed">Só temos o hoje</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Músicas -->
+    <section id="musicas" class="min-h-screen py-20 px-4 bg-white/10">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="dancing-script text-5xl md:text-6xl text-white text-center mb-16 font-bold">
+                Músicas que me fazem pensar em você
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Música 1 -->
+                <div class="glass-effect rounded-3xl p-8 shadow-2xl card-hover flex items-center space-x-6">
+                    <div class="w-20 h-20 bg-gradient-to-br from-pink-400 via-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center shadow-lg">
+                        <span class="text-3xl">🎵</span>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="poppins font-bold text-gray-800 text-xl mb-2">A Tal Canção Pra Lua -  Victor Kley</h3>
+                        <p class="poppins text-gray-600 text-lg">Quando admiro a tua beleza</p>
+                    </div>
+                    <button class="music-button text-white p-4 rounded-2xl transition-all duration-300" onclick="playMusic('musicas/music1.mp3', this)">
+                        <span class="text-2xl">▶</span>
+                    </button>
+                </div>
+                
+                <!-- Música 2 -->
+                <div class="glass-effect rounded-3xl p-8 shadow-2xl card-hover flex items-center space-x-6">
+                    <div class="w-20 h-20 bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 rounded-2xl flex items-center justify-center shadow-lg">
+                        <span class="text-3xl">🎶</span>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="poppins font-bold text-gray-800 text-xl mb-2">Ela Une Todas As Coisas - Jorge Vercillo</h3>
+                        <p class="poppins text-gray-600 text-lg">Quando preciso da tua presença</p>
+                    </div>
+                    <button class="music-button text-white p-4 rounded-2xl transition-all duration-300" onclick="playMusic('musicas/music2.mp3', this)">
+                        <span class="text-2xl">▶️</span>
+                    </button>
+                </div>
+                
+                <!-- Música 3 -->
+                <div class="glass-effect rounded-3xl p-8 shadow-2xl card-hover flex items-center space-x-6">
+                    <div class="w-20 h-20 bg-gradient-to-br from-green-400 via-teal-500 to-blue-500 rounded-2xl flex items-center justify-center shadow-lg">
+                        <span class="text-3xl">🎼</span>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="poppins font-bold text-gray-800 text-xl mb-2">O Leãozinho - ANAVITÓRIA</h3>
+                        <p class="poppins text-gray-600 text-lg">Sempre que vejo você chegando</p>
+                    </div>
+                    <button class="music-button text-white p-4 rounded-2xl transition-all duration-300" onclick="playMusic('musicas/music3.mp3', this)">
+                        <span class="text-2xl">▶️</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carta -->
+    <section id="carta" class="min-h-screen py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="dancing-script text-5xl md:text-6xl text-white text-center mb-16 font-bold">
+                Uma carta de alguém apaixonado
+            </h2>
+            
+            <!-- Envelope -->
+            <div class="relative mb-8 mx-auto max-w-md">
+                <div class="envelope-back rounded-lg shadow-lg transform rotate-2 hover:rotate-0 transition-transform duration-500" style="background:#D1D9BF;">
+                    <div class="w-full h-48 rounded-lg border-2 relative overflow-hidden" style="background:#D1D9BF; border-color:#C7CFB0;">
+                        <!-- Envelope flap -->
+                        <div class="absolute top-0 left-0 w-full h-24 transform origin-top rotate-0 transition-transform duration-700 hover:-rotate-12" style="background:#C7CFB0;"></div>
+                        <!-- Heart seal -->
+                        <div class="absolute top-6 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-gradient-to-br from-green-500 to-white-500 rounded-full flex items-center justify-center shadow-lg">
+                            <span class="text-white text-sm">❤️</span>
+                        </div>
+                        <!-- Address -->
+                        <div class="absolute bottom-4 left-4 right-4">
+                            <p class="dancing-script text-lg text-center" style="color:#000000;">Para: Paula Valois</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Letter Paper -->
+            <div class="letter-paper bg-gradient-to-b from-amber-50 to-yellow-50 shadow-2xl card-hover relative max-w-3xl mx-auto transform hover:scale-105 transition-all duration-500">
+                <!-- Paper texture and lines -->
+                <div class="absolute inset-0 opacity-10">
+                    <div class="w-full h-full" style="background-image: repeating-linear-gradient(transparent, transparent 24px, #e5e7eb 24px, #e5e7eb 26px);"></div>
+                </div>
+                
+                <!-- Red margin line -->
+                <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-red-300 opacity-40"></div>
+                
+                <!-- Paper holes -->
+                <div class="absolute left-4 top-8 w-2 h-2 bg-white rounded-full shadow-inner border border-gray-200"></div>
+                <div class="absolute left-4 top-20 w-2 h-2 bg-white rounded-full shadow-inner border border-gray-200"></div>
+                <div class="absolute left-4 top-32 w-2 h-2 bg-white rounded-full shadow-inner border border-gray-200"></div>
+                
+                <!-- Letter content -->
+                <div class="p-12 md:p-16 relative z-10">
+                    <!-- Date -->
+                    <div class="text-right mb-8">
+                        <p class="dancing-script text-gray-600 text-lg" id="letter-date"></p>
+                    </div>
+                    
+                    <!-- Letter body -->
+                    <div class="dancing-script text-gray-800 leading-relaxed space-y-6 text-lg md:text-xl">
+                        <p class="text-2xl md:text-3xl text-black-700 font-bold mb-8">Minha Mademoiselle Valois,</p>
+                        
+                        <p class="handwriting-line">
+                            hoje não é nenhuma data comemorativa e nem 1 mês de namoro, mas tu tens me inspirado dia após dia que não é preciso de um dia específico pra te fazer algo especial. Afinal de contas, nenhum dia foi o mesmo desde que te conheci. 
+                            <br> "Não se pode banhar duas vezes no mesmo rio", já dizia Heráclito, e eu sinto que cada momento contigo é único, uma nova correnteza de emoções e descobertas. Um turbilhão de sentimentos que me desafiam, me inspiram e me instigam a te amar em cada amanhã mais e mais do que ontem.
+                        </p>
+                        
+                        <p class="handwriting-line">
+                           E o que falar sobre ti? Ah! Meu amor, tu és a personificação de tudo que preciso na minha vida:
+
+                           <ul class="handwriting-line list-disc pl-8 space-y-4">
+                            <li>Teu sorriso ilumina meus dias mais sombrios, juntos às tuas gargalhadas que são a trilha sonora da minha sincera felicidade.</li>
+                            <li>Teu abraço é o refúgio onde encontro paz, calmaria e aconchego. Teus braços são meu lar, meu melhor lugar.</li>
+                            <li>Teus olhos — e que lindos olhos — me hipnotizam e me fazem perder o fôlego toda vez que me perco neles ou quando me deparo com teu olhar repleto de amor e conexão.</li>
+                            <li>Tua voz é melodia que nenhum instrumento é capaz reproduzir. Minha canção de ninar predileta.</li>
+                        </ul>
+                        Enfim (más nunca sendo um fim), sou imensamente grato por cada instante ao teu lado, por cada sorriso compartilhado, por cada desafio enfretado juntos. És minha inspiração e saudade diária. 
+                        </p>
+                        
+                        <p class="handwriting-line">
+                           Feliz hoje, minha amada! Pois só este nos pertence.
+                        </p>
+                        
+                        <!-- Heart doodles 
+                        <div class="flex justify-center space-x-4 my-8">
+                            <span class="text-pink-500 text-2xl transform rotate-12">💕</span>
+                            <span class="text-red-500 text-xl transform -rotate-6">💖</span>
+                            <span class="text-purple-500 text-2xl transform rotate-6">💝</span>
+                            <span class="text-pink-600 text-xl transform -rotate-12">💗</span>
+                        </div>
+                        -->
+                        
+                        <div class="text-center py-6">
+                            <p class="text-3xl md:text-4xl text-black-600 font-bold transform -rotate-1">
+                                Te amo entorpecidamente!
+                            </p>
+                        </div>
+                        
+                        <div class="text-right mt-12 space-y-2">
+                            <p class="text-xl text-black-700">De:</p>
+                            <p class="text-2xl text-black-700 font-bold transform rotate-1">
+                                Fernando Pinheiro
+                            </p>
+                            <!-- Signature underline -->
+                            <div class="w-48 h-0.5 bg-gray-400 ml-auto mt-2 transform rotate-1"></div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                
+                <!-- Paper shadow/fold effects -->
+                <div class="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-transparent to-black/5 pointer-events-none"></div>
+                <div class="absolute bottom-0 left-0 w-20 h-20 bg-gradient-to-tr from-transparent to-black/5 pointer-events-none"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contador -->
+    <section id="contador" class="min-h-screen py-20 px-4 bg-white/10">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="dancing-script text-5xl md:text-6xl text-white mb-16 font-bold">
+                16 de junho de 2025
+            </h2>
+            
+            <div class="glass-effect rounded-3xl p-10 md:p-16 shadow-2xl card-hover">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+                    <div class="text-center">
+                        <div class="counter-number text-5xl md:text-6xl font-bold mb-4" id="days">30</div>
+                        <div class="poppins text-gray-600 font-semibold text-lg uppercase tracking-wider">Dias</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="counter-number text-5xl md:text-6xl font-bold mb-4" id="hours">720</div>
+                        <div class="poppins text-gray-600 font-semibold text-lg uppercase tracking-wider">Horas</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="counter-number text-5xl md:text-6xl font-bold mb-4" id="minutes">43200</div>
+                        <div class="poppins text-gray-600 font-semibold text-lg uppercase tracking-wider">Minutos</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="counter-number text-5xl md:text-6xl font-bold mb-4" id="seconds">2592000</div>
+                        <div class="poppins text-gray-600 font-semibold text-lg uppercase tracking-wider">Segundos</div>
+                    </div>
+                </div>
+                
+                <div class="mt-16 p-8 bg-gradient-to-r from-pink-50/80 to-purple-50/80 rounded-2xl backdrop-blur-sm">
+                    <p id="contador-mensagem" class="poppins text-gray-700 text-2xl mb-6 text-center leading-relaxed">
+                        "" 
+                    </p>
+                    <p id="contador-mensagem" class="poppins text-gray-700 text-2xl mb-6 text-center leading-relaxed">
+                        Cada segundo ao seu lado é uma eternidade de felicidade
+                    </p>
+                        <!-- 
+                    <div class="flex justify-center space-x-4">
+                        <span class="text-3xl pulse-heart">💕</span>
+                        <span class="text-3xl pulse-heart" style="animation-delay: 0.2s;">💖</span>
+                        <span class="text-3xl pulse-heart" style="animation-delay: 0.4s;">💝</span>
+                        <span class="text-3xl pulse-heart" style="animation-delay: 0.6s;">💗</span>
+                        <span class="text-3xl pulse-heart" style="animation-delay: 0.8s;">💓</span>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <p class="dancing-script text-3xl text-white mb-4">
+                Feito com muito amor para você, Paula Valois
+            </p>
+            <p class="poppins text-white/80">
+                Amo te amar
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96f1d3b607f8fd72',t:'MTc1NTE4ODkyNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
